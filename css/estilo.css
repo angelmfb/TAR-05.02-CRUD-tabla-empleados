@@ -1,0 +1,52 @@
+/*
+    Ángel Manuel Fernández Baños
+*/
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body{
+    width: 69.44444444%;
+    min-height: 111.1111111%;
+    margin: 0 auto;
+}
+header{
+    height: 70px;
+    padding-top: 1%;
+    text-align: center;
+    background-color: pink;
+}
+body nav{
+    height: 40px;
+    text-align: center;
+    background-color: orange;
+}
+body nav ul li{
+    display: inline;
+    word-spacing: 2%;
+}
+#mover nav{
+    width: 20%;
+    min-height: 520px;
+    background-color: green;
+    float: left;
+}
+#mover nav ul li{
+    display: block;
+}
+main{
+    width: 76%;
+    min-height: 480px;
+    background-color: rgb(150, 69, 150);
+    float: left;
+    padding: 2%;
+}
+main p{
+    margin-bottom: 5px;
+}
+footer{
+    height: 110px;
+    clear: left;
+    background-color: red;
+}
